@@ -1,0 +1,6 @@
+{
+  "name": "Claude Site Panel",
+  "description": "A Claude-themed site settings panel prototype with local storage, login, bilingual switching, and JSON import/export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

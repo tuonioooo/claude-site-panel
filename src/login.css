@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-login-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-login-headline: "Newsreader", ui-serif, Georgia, serif;
+
+  --color-login-cream: #faf9f5;
+  --color-login-surface: #efe9de;
+  --color-login-ink: #141413;
+  --color-login-muted: #6b665f;
+  --color-login-coral: #cc785c;
+}
+
+.login-page {
+  background-color: var(--color-login-cream);
+  color: var(--color-login-ink);
+  font-family: var(--font-login-body);
+}
+
+.login-page ::selection {
+  background-color: var(--color-login-coral);
+  color: #fff;
+}
